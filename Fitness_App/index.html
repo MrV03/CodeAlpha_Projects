@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fitness Tracker App</h1>
+        <div class="workout-form">
+            <h2>Add Workout Session</h2>
+            <input type="text" id="workout-session-name" placeholder="Workout Session Name">
+            <div id="exercise-fields">
+                <div class="exercise-field">
+                    <input type="text" class="exercise-name" placeholder="Exercise Name">
+                    <input type="number" class="exercise-sets" placeholder="Sets">
+                    <input type="number" class="exercise-reps" placeholder="Reps">
+                    <select class="exercise-type">
+                        <option value="BW">BW (Bodyweight)</option>
+                        <option value="FW">FW (Free Weight)</option>
+                    </select>
+                    <input type="number" class="exercise-weight" placeholder="Weight (kg)" style="display:none;">
+                    <button class="add-exercise" onclick="addExerciseField()">Add Exercise</button>
+                </div>
+            </div>
+            <button onclick="addWorkout()">Save Workout Session</button>
+        </div>
+        <div class="workout-list">
+            <h2 align = center>Workout Sessions</h2>
+            <ul id="workout-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
