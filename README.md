@@ -17,19 +17,15 @@ Theme
 The app features a modern and stylish blue and white theme, in keeping with the design standards of CodeAlpha.
 Installation
 
-    Clone the repository:
+Clone the repository:
 
-    sh
-
-git clone https://github.com/MrV03/CodeAlpha_Projects.git
+    git clone https://github.com/MrV03/CodeAlpha_Projects.git
 
 Navigate to the project directory:
 
-sh
-
     cd CodeAlpha_Projects/Fitness_App
 
-    Open the index.html file in your web browser to start using the app.
+Open the index.html file in your web browser to start using the app.
 
 Usage
 
