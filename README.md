@@ -3,7 +3,7 @@ CodeAlpha Internship Projects
 This repository contains the projects developed during my one-month internship with CodeAlpha. The projects span various domains including Artificial Intelligence, Cybersecurity, and Mobile App Development. Each project showcases specific skills and technologies.
 Projects Overview
 Artificial Intelligence
-1. FAQ Chatbot
+1. FAQ
 
 Created a chatbot to answer FAQs using Natural Language Processing (NLP) techniques and pre-built libraries like NLTK or SpaCy.
 
@@ -17,7 +17,7 @@ Developed a language translation tool using machine translation techniques and p
     Technologies: Python, Flask, Google Translate API, HTML, CSS, JavaScript
     Folder: Translator
 
-3. Object Detection
+3. Object_Detection
 
 Developed a system for detecting and tracking objects in real-time video streams using deep learning models like YOLO or Faster R-CNN.
 
@@ -32,7 +32,7 @@ Developed a network-based intrusion detection system using tools like Snort or S
     Technologies: Python, Flask, Suricata, HTML, CSS, JavaScript
     Folder: IDS_System
 
-2. Phishing Awareness Presentation
+2. Phishing
 
 Created a presentation or online training module about phishing attacks, educating others about recognizing and avoiding phishing emails, websites, and social engineering tactics.
 
@@ -47,21 +47,21 @@ Developed a network sniffer tool to monitor and analyze network traffic.
     Folder: Sniffer
 
 Mobile App Development
-1. Fitness Tracker App
+1. Fitness_App
 
 Developed a fitness tracking app that allows users to record and track their workouts, set fitness goals, and view their progress over time. Includes features for recording different types of exercises and workouts.
 
     Technologies: HTML, CSS, JavaScript
     Folder: Fitness_Tracker_App
 
-2. Random Quote Generator
+2. Quote_Generator
 
 Created an app that generates random quotes. Users can click a button to get a new quote, and features like sharing the quote on social media are included.
 
     Technologies: HTML, CSS, JavaScript
     Folder: Random_Quote_Generator
 
-3. Flashcard Quiz App
+3. Flashcard
 
 Created a flashcard quiz app for studying. Users can add flashcards with questions and answers, then quiz themselves on the material. Track and display quiz scores.
 
