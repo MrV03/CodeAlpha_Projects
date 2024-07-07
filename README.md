@@ -3,21 +3,21 @@ CodeAlpha Internship Projects
 This repository contains the projects developed during my one-month internship with CodeAlpha. The projects span various domains including Artificial Intelligence, Cybersecurity, and Mobile App Development. Each project showcases specific skills and technologies.
 Projects Overview
 Artificial Intelligence
-1. FAQ
+1. FAQ Chatbot
 
 Created a chatbot to answer FAQs using Natural Language Processing (NLP) techniques and pre-built libraries like NLTK or SpaCy.
 
     Technologies: Python, Flask, NLTK, SpaCy, HTML, CSS, JavaScript
-    Folder: FAQ_Chatbot
+    Folder: FAQ
 
-2. Translator
+2. Translator App
 
-Developed a language translation tool using machine translation techniques and pre-trained models like Google Translate API or Microsoft Translator API.
+Developed a language translation tool using machine translation techniques and pre-trained model of Google Translate API.
 
     Technologies: Python, Flask, Google Translate API, HTML, CSS, JavaScript
     Folder: Translator
 
-3. Object_Detection
+3. Object Detection App
 
 Developed a system for detecting and tracking objects in real-time video streams using deep learning models like YOLO or Faster R-CNN.
 
@@ -27,19 +27,19 @@ Developed a system for detecting and tracking objects in real-time video streams
 Cybersecurity
 1. Intrusion Detection System (IDS)
 
-Developed a network-based intrusion detection system using tools like Snort or Suricata. Set up rules and alerts to identify and respond to suspicious network activity, and visualized the detected attacks.
+Developed a network-based intrusion detection system using Suricata. Set up rules and alerts to identify and respond to suspicious network activity, and visualized the detected attacks.
 
     Technologies: Python, Flask, Suricata, HTML, CSS, JavaScript
-    Folder: IDS_System
+    Folder: IDS
 
-2. Phishing
+2. Phishing Awareness Presentation
 
 Created a presentation or online training module about phishing attacks, educating others about recognizing and avoiding phishing emails, websites, and social engineering tactics.
 
-    Technologies: Presentation software (e.g., PowerPoint, Google Slides)
-    Folder: Phishing_Awareness_Presentation
+    Technologies: Presentation software (PowerPoint)
+    Folder: Phishing
 
-3. Sniffer
+3. Network Sniffer
 
 Developed a network sniffer tool to monitor and analyze network traffic.
 
@@ -47,26 +47,26 @@ Developed a network sniffer tool to monitor and analyze network traffic.
     Folder: Sniffer
 
 Mobile App Development
-1. Fitness_App
+1. Fitness Tracking App
 
 Developed a fitness tracking app that allows users to record and track their workouts, set fitness goals, and view their progress over time. Includes features for recording different types of exercises and workouts.
 
     Technologies: HTML, CSS, JavaScript
-    Folder: Fitness_Tracker_App
+    Folder: Fitness_App
 
-2. Quote_Generator
+2. Random Quote Generator
 
 Created an app that generates random quotes. Users can click a button to get a new quote, and features like sharing the quote on social media are included.
 
     Technologies: HTML, CSS, JavaScript
-    Folder: Random_Quote_Generator
+    Folder: Quote_Generator
 
-3. Flashcard
+3. Flashcard Quiz App
 
 Created a flashcard quiz app for studying. Users can add flashcards with questions and answers, then quiz themselves on the material. Track and display quiz scores.
 
     Technologies: HTML, CSS, JavaScript
-    Folder: Flashcard_Quiz_App
+    Folder: Flashcard
 
 Setup and Installation
 
