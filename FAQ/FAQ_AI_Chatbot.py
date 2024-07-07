@@ -1,3 +1,4 @@
+#This was just a concept, it was a preliminary app, the other one is the actual project
 import nltk
 from nltk.chat.util import Chat, reflections
 from tkinter import *
