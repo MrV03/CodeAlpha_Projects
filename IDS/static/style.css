@@ -1,0 +1,70 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+/* Container for the main content */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Header styles */
+header {
+    background-color: #007bff; /* Blue header */
+    color: #fff; /* White text */
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Button styles */
+.btn {
+    background-color: #007bff; /* Blue button */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Status message styles */
+.status {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #e9ecef; /* Light gray background */
+    border: 1px solid #ced4da; /* Light gray border */
+}
+
+/* Attack log styles */
+.attack-log {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #d4edda; /* Light green background */
+    border: 1px solid #c3e6cb; /* Light green border */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff; /* Blue footer */
+    color: #fff; /* White text */
+    border-radius: 0 0 8px 8px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Intrusion Detection System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Network Intrusion Detection System</h1>
+    </header>
+
+    <div class="container">
+        <h2>Status</h2>
+        <div class="status">
+            <p id="status">Loading status...</p>
+        </div>
+
+        <h2>Actions</h2>
+        <button class="btn" onclick="startSuricata()">Start Suricata</button>
+        <button class="btn" onclick="simulateAttack()">Simulate Attack</button>
+        <button class="btn" onclick="stopSuricata()">Stop Suricata</button>
+
+        <h2>Attack Log</h2>
+        <div class="attack-log">
+            <p id="attack-log">No attacks simulated yet.</p>
+        </div>
+
+        <h2>Attack Details</h2>
+        <div class="attack-details">
+            <p id="attack-details">No attack details available.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Network IDS. All rights reserved.</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
