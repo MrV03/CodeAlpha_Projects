@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.quote {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.social-share button {
+    background-color: transparent;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.social-share button i {
+    font-size: 1.5em;
+    color: #007bff;
+}
