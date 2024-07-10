@@ -1,0 +1,72 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Translator</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1>Language Translation App</h1>
+    <form id="translationForm">
+        <label for="text">Text to Translate:</label><br>
+        <textarea id="text" name="text" rows="4" cols="50"></textarea><br><br>
+
+        <label for="inputLanguage">Input Language:</label>
+        <select id="inputLanguage" name="input_language">
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+            <option value="hi">Hindi</option>
+            <option value="la">Latin</option>
+            <option value="af">Afrikaans</option>
+            <!-- Add more languages as needed -->
+        </select><br><br>
+
+        <label for="outputLanguage">Output Language:</label>
+        <select id="outputLanguage" name="output_language">
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+            <option value="hi">Hindi</option>
+            <option value="la">Latin</option>
+            <option value="af">Afrikaans</option>
+            <!-- Add more languages as needed -->
+        </select><br><br>
+
+        <button type="button" onclick="translateText()">Translate</button>
+    </form>
+
+    <div id="translationResult"></div>
+
+    <script>
+        function translateText() {
+            var text = document.getElementById('text').value;
+            var inputLanguage = document.getElementById('inputLanguage').value;
+            var outputLanguage = document.getElementById('outputLanguage').value;
+
+            var data = {
+                text: text,
+                input_language: inputLanguage,
+                output_language: outputLanguage
+            };
+
+            fetch('/translate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('translationResult').innerHTML = "<h3>Translation:</h3><p>" + data.translation + "</p>";
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+    </script>
+</body>
+</html>
